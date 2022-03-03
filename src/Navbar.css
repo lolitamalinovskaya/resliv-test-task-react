@@ -1,0 +1,20 @@
+.Navbar {
+  display: flex;
+  margin: 1rem auto;
+}
+.Navbar-item {
+   list-style: none;
+   margin: 2rem;
+   text-decoration: unset;
+ }
+
+.Navbar-link {
+  color: #61dafb;
+    text-decoration: none;
+    transition: all 0.25s ease-out;
+}
+
+.Navbar-link:hover {
+    color: #950eea;
+    transition: all 0.25s ease-out;
+}

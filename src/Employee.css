@@ -1,0 +1,39 @@
+.Employee-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  list-style: none;
+  justify-content: space-between;
+  padding: unset;
+  margin: 2rem auto 0;
+}
+
+@media (max-width: 768px) {
+  .Employee-list {
+    max-width: 100%;
+    justify-content: center;
+  }
+}
+
+.Employee-wrapper {
+  text-align: center;
+  flex-basis: 20%;
+}
+
+.Employee-btn {
+  width: 150px;
+  height: 40px;
+  background-color: transparent;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 1px solid white;
+  outline: none;
+  cursor: pointer;
+  margin: 15px 15px 30px;
+  transition: all 250ms ease-out;
+}
+
+.Employee-btn:hover {
+  transition: all 250ms ease-out;
+  background-color: #483057;
+}
